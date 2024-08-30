@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style-contact.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar-container">
+      <div class="container">
+        <div class="flex-container">
+          <div class="logo">
+            <a href="index.html"><img class="img-fluid image-logo" src="images/logo.png" alt="logo" /></a>
+          </div>
+          <ul id="menuList">
+            <li><a href="index.html" class="text home-text pl-2">Home</a></li>
+            <li><a href="about.html" class="text2 px-2">About us</a></li>
+            <li><a href="privcy.html" class="text5 px-2">Privacy Policy</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle ser m-0 p-0" href="#" role="button"
+                  data-bs-toggle="dropdown">Services</a>
+              <ul class="dropdown-menu di">
+                  <li><a class="dropdown-item dii"href="index.html#1">Social Media Marketing</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#2">Email Marketing</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#3">Paid Advertising (PPC)</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#4">Graphics Designing</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#5">Website Development</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#6">Search Engine Optimization (SEO)</a></li>
+              </ul>
+          </li>
+            <li><a href="contact.html" class="text3 px-2">Contact us</a></li>
+            <li onclick="showSidebar()">
+              <a href="#" class="text4 pl-2">Free Trail</a>
+            </li>
+          </ul>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()" class="m-0 pt-3"><a href="#"><i class="fa-sharp fa-solid fa-square-xmark"></i></a></li>
+            <h4 class="m-0 fw-600 scolor">Free Trail</h4>
+            <p class="">Claim Your 7-Day Free Trial on Your
+              First Service with Us</p>
+              <P class=" m-0"> Full Name</P>
+              <input class="input2 m-0" type="text" name="name" placeholder="Davis samith"  >
+              <P class=" m-0">Email</P>
+              <input class="input2 m-0" type="text" name="email" placeholder="davissmith@gmail.com"  >
+              <P class=" m-0">Phone</P>
+              <input class="input2 m-0" type="text" name="email" placeholder="+923018671190"  >
+              <p class="m-0">Message</p>
+              <input class="input2 m-0" type="Message" name="email" placeholder="This is messahe"  >
+             <button class="m-0 submit">submit</button>
+          </ul>
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- <section> 2 </section> -->
+
+ 
+<div class="container pt-5  mt-5"data-aos="zoom-in" data-aos-duration="2000">
+  <div class="row  px-5" style="background: #9FC2DE33; border-radius: 20px; border: 1px solid rgba(83, 83, 255, 0.507);
+  ">
+    <div class="col-md-12 py-3">
+    <h3>Privacy Policy :</h3>
+    </div>
+  <div class="row">
+    <div class="col-12">
+      <p>
+        At 360 Digital Solutions, your privacy is of paramount importance to us. This Privacy Policy outlines
+  how we collect, use, disclose, and protect your information when you visit our website, interact with
+  our services, or engage with our digital marketing solutions.
+  
+      </p>
+    </div>
+    <div class="col-12">
+      <p>We may collect various types of information from you, including personal information such as your 
+        name, email address, phone number, and any other details you provide through contact forms, inquiries,
+        or sign-ups. Additionally, we collect business information related to your industry, size, and marketing 
+        goals provided during consultations or service requests. We also gather technical information like IP 
+        address, browser type, operating system, and usage data through cookies and tracking technologies.
+        
+        
+        </p>
+    </div>
+    <div class="col-12">
+      <p>
+        We use the collected information for several purposes. This includes delivering our digital marketing 
+        solutions, such as social media management, SEO, PPC, and other services. We also use your information
+        to analyze and enhance the effectiveness of our strategies and services based on your feedback and
+        interaction. Communication with you for inquiries, updates, promotional materials, and other relevant 
+        information is another key use of your information. Additionally, we utilize analytics to understand user 
+        behavior, measure engagement, and optimize our website and marketing efforts.
+        
+      </p>
+    </div>
+    <div class="col-12">
+      <p>
+        Your information is not sold or rented to third parties. However, we may share your information with 
+  trusted partners and vendors who assist us in delivering our services and managing our business
+  operations, always under strict confidentiality agreements. We may also disclose your information
+  if required by law, in response to legal processes, or to protect the rights, property, or safety of our
+  company, clients, or others.
+      </p>
+    </div>
+    <div class="col-12">
+      <p>
+        
+  We implement industry-standard security measures to protect your information from unauthorized 
+  access, disclosure, alteration, or destruction. Despite these efforts, no method of transmission over
+  the internet or electronic storage is completely secure, and we cannot guarantee absolute security.
+  
+      </p>
+    </div>
+    <div class="col-12">
+      <p>
+        You have the right to access and update your personal information held by us. You can also opt-out 
+        of marketing communications at any time by following the instructions in the emails or contacting us 
+        directly. Additionally, you can request the deletion of your personal information, subject to certain legal
+        and contractual obligations.
+      </p>
+    </div>
+    <div class="col-12">
+      <p>
+        We use cookies and similar technologies to collect information about your interactions with our website.
+        You can manage your cookie preferences through your browser settings. Please note that disabling
+        cookies may affect the functionality of our website.
+      </p>
+    </div>
+    <div class="col-12">
+      <p>
+  
+        We may update this Privacy Policy from time to time. Significant changes will be communicated by 
+        posting the updated policy on our website with the revised effective date. Continued use of our services 
+        after any changes indicates acceptance of the updated policy.
+      </p>
+    </div>
+    <div class="col-12">
+      <p>
+        If you have any questions or concerns about this Privacy Policy or our data practices, please contact us
+  on email at info.3sixtydigitals@gmail.com or by phone at 0305-6703703. 
+  For more information, visit our website!
+      </p>
+    </div>
+  </div>
+  
+  </div>
+  </div>
+
+  <!-- ==== {{section 3 }}==== -->
+
+
+   <div class="container">
+    <div class="row  pt-3">
+      <div class="col-md-2 box-text">
+        <img class="img-fluid" src="images/logo.png" alt="">
+      </div>
+      <div class="col-md-8 pt-4">
+        <p>360 Digital Solutions is committed to creating personalized
+          marketing strategies that empower businesses to reach their
+          full potential.</p>
+      </div>
+    </div>
+  </div>
+</div>
+   </div>
+
+
+  <!-- ==== {{section 7 }}==== -->
+
+  <div class="container pb-3">
+    <div class="row">
+      <div class="col-md-4">
+     <i class="fa-regular fa-comment"></i><a href="" class="lastt"><p class="contactus ">Contact Us</p></a>   
+      </div>
+      <div class="col-md-4">
+        <i class="fa-solid fa-phone-volume"></i><a href="" class="lastt"><p class="contactus ">+923056703703</p></a>        
+      </div>
+      <div class="col-md-4">
+        <i class="fa-regular fa-envelope"></i> <a href="" class="lastt"><p class="contactus ">Info.3sixtydigitals@gmail.com</p></a>        
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-10 box-text">
+        <p>Copyright Ⓒ 2024 360 Digital Solutions. All Rights Reserved.</p>
+      </div>
+      <div class="col-md-2">
+        <a href="#"><i class="fa-brands fa-facebook licon"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram licon"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin licon"></i></a>
+      </div>
+    </div>
+  </div>
+ 
+
+
+
+
+
+
+
+
+
+
+  <!-- {{===js=====}}  -->
+
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "flex";
+    }
+
+    function hideSidebar() {
+      const sidebar = document.querySelector(".sidebar");
+      sidebar.style.display = "none";
+    }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200
+    });
+  </script>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="srcipt.js"></script>
+</body>
+
+</html>
