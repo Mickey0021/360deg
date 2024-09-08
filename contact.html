@@ -9,7 +9,7 @@
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="style-contact.css" />
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -31,12 +31,12 @@
               <a class="nav-link dropdown-toggle ser m-0 p-0" href="#" role="button"
                   data-bs-toggle="dropdown">Services</a>
               <ul class="dropdown-menu di">
-                  <li><a class="dropdown-item dii"href="index.html#1">Social Media Marketing</a></li>
-                  <li><a class="dropdown-item dii" href="index.html#2">Email Marketing</a></li>
-                  <li><a class="dropdown-item dii" href="index.html#3">Paid Advertising (PPC)</a></li>
-                  <li><a class="dropdown-item dii" href="index.html#4">Graphics Designing</a></li>
-                  <li><a class="dropdown-item dii" href="index.html#5">Website Development</a></li>
-                  <li><a class="dropdown-item dii" href="index.html#6">Search Engine Optimization (SEO)</a></li>
+                  <li><a class="dropdown-item dii"href="index.html#1">1. Social Media Marketing</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#2">2. Email Marketing</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#3">3. Paid Advertising (PPC)</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#4">4. Graphics Designing</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#5">5. Website Development</a></li>
+                  <li><a class="dropdown-item dii" href="index.html#6">6. Search Engine Optimization (SEO)</a></li>
               </ul>
           </li>
             <li><a href="contact.html" class="text3 px-2">Contact us</a></li>
@@ -46,6 +46,7 @@
           </ul>
           <ul class="sidebar">
             <li onclick="hideSidebar()" class="m-0 pt-3"><a href="#"><i class="fa-sharp fa-solid fa-square-xmark"></i></a></li>
+           
             <h4 class="m-0 fw-600 scolor">Free Trail</h4>
             <p class="">Claim Your 7-Day Free Trial on Your
               First Service with Us</p>
@@ -58,6 +59,7 @@
               <p class="m-0">Message</p>
               <input class="input2 m-0" type="Message" name="email" placeholder="This is messahe"  >
              <button class="m-0 submit">submit</button>
+             
           </ul>
           <div class="menu-icon">
             <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
@@ -70,23 +72,34 @@
 
   <div class="container pt-5 ">
     <div class="row fr">
-      <div class="col-md-6">
-        <img class="img-fluid conti" src="images/contact i.png" alt="">
+      <div class="col-md-6 "> 
+        <img class="img-fluid conti" src="images/contactim2.png" alt="">
       </div>
-      <div class="col-md-6  contacts">
-      <h3 class="fontw backc">Contact Us</h3>
-      <P class="pt-4 m-0"> Full Name</P>
-      <input class="input1 " type="text" name="name" placeholder="Davis samith"  >
-      <P class="pt-3 m-0"> Email</P>
-      <input class="input1 pt-1" type="text" name="name" placeholder="davissmith@gmail.com"  >
-      <P class=" pt-3 m-0">Phone Number:</P>
-      <input class="input1 m-0" type="text" name="name" placeholder="+923018671190"  >
-      <P class="pt-3 m-0">Message</P>
-      <input class="input1" type="text" name="name" placeholder="This is a message"  >
+      <div class="col-md-6 contacts ">
+        <h3 class="fontw backc">Contact Us</h3>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="07fe8110-b42e-4b60-932c-dc0b6e3a2dea">
+      <label class="pt-4 m-0" for="">Name</label>
+    <br>
+      <input  class="input1 " type="name" name="name" placeholder="Davis samith" required>
+      <br>
+      <label  class=" m-0" for="">Email</label>
+      <br>
+      <input class="input1 pt-1 " type="email" name="email" placeholder="davissmith@gmail.com" required>
+      <br>
+      <label  class=" m-0" for="">Number</label>
+      <br>
+      <input class="input1 m-0 " type="number" name="number" placeholder="+923018671190" required>
+      <br>
+      <label  class="m-0" for="">Message</label>
+      <br>
+      <input class="input1 " type="message" name="messae" placeholder="This is a message" required >
      <div class="col-md-12 pt-5">
-      <a class="abtn mt-5" href="contact.html" style="--clr: #1691F4"><span>Button</span><i></i></a>
+      <a class="abtn mt-5 " href="contact.html" style="--clr: #1691F4"><span class="ins"> <button class="color"  type="submit">Submit</button> </span><i></i></a>
+    </form>
      </div>
       </div>
+    
       
     </div>
   </div>
@@ -94,15 +107,13 @@
 
   <!-- ==== {{section 3 }}==== -->
 
-
-
    <div class="container">
     <div class="row  pt-3">
       <div class="col-md-2 box-text">
         <img class="img-fluid" src="images/logo.png" alt="">
       </div>
       <div class="col-md-8 pt-4">
-        <p>360 Digital Solutions is committed to creating personalized
+        <p class="tin">360 Digital Solutions is committed to creating personalized
           marketing strategies that empower businesses to reach their
           full potential.</p>
       </div>
@@ -132,22 +143,13 @@
         <p>Copyright Ⓒ 2024 360 Digital Solutions. All Rights Reserved.</p>
       </div>
       <div class="col-md-2">
-        <a href="#"><i class="fa-brands fa-facebook licon"></i></a>
-        <a href="#"><i class="fa-brands fa-instagram licon"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin licon"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook licon facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram licon facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin licon facebook"></i></a>
       </div>
     </div>
   </div>
  
-
-
-
-
-
-
-
-
-
 
   <!-- {{===js=====}}  -->
 
