@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   font-family: inherit;
 }
-div {
+.container {
   overflow-x: hidden;
 }
 *{
